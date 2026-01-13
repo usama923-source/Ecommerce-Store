@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    font-family:'Courier New', Courier, monospace;
+    
+    letter-spacing: 11px;
+
+}
+
+
+.card-img-top {
+   
+   height: 450px;
+   object-fit: fill;
+ 
+    
+}
+
+.admin_image{
+    width: 100px;
+    object-fit: contain;
+}
+
+
+.form-control:focus {
+  border-color: #ffc107 !important;  /* warning color */
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25) !important; 
+  
+}
+
+select.form-select:focus {
+  border-color: #ffc107 !important;  /* warning color */
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25) !important; 
+  
+}
+.form-check-input:focus {
+  border-color: #ffc107 !important;  /* Bootstrap warning color */
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25) !important; 
+}
+/* Login Form*/
