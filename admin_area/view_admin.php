@@ -14,7 +14,7 @@
 
 include('../connect.php');
 include('../links.php');
-    include('../functions/common_function.php');
+    include('../functions/common_function.php inclue');
 
     ?>
 
@@ -38,16 +38,9 @@ include('../links.php');
     if($result_count>0){
       echo "<thead>
       <tr>
-      
-      
-        
-
-
         <th style='width:10%'>Admin Id</th>
         <th style='width:40%'>Admin Username</th>
         <th style='width:40%'>Admin Email</th>
-        
-        
       </tr>
     </thead>";
 
