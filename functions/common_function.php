@@ -329,6 +329,7 @@ function get_client_ip() {
     return $ipaddress;
 }
 
+
 //cart function
 
 // cart item
